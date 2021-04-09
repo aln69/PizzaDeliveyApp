@@ -1,0 +1,34 @@
+body {
+    background-color: #089;
+    color: #fff;
+}
+
+h1 {
+    padding { 0.5em }
+}
+
+p {
+    color:#eee;
+}
+
+table {
+    width: 100%;
+    background-color: #067;
+    border: none;
+}
+
+td { 
+    padding:0.5em 0.25em; 
+}
+
+a:link {
+    color: #dda;
+}
+
+a:visited {
+    color: #ffd;
+}
+
+form {
+    width: 70%;
+}

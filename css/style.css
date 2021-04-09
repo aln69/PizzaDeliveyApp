@@ -1,0 +1,23 @@
+body {
+    background-color: darkred;
+}
+
+h1 {
+    font-size: 48pt;
+    color: white;
+    background-color: #2a0;
+    text-align: center;
+}
+
+form {
+    background-color: #2a0;
+    color: white;
+    width: 25%;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+img {
+    width: 80%;
+    float: right;
+}

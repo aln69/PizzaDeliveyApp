@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Welcome to someone who sells pizza</h1>
+
+    <div>
+    <img src="img/pizza.png" alt="">
+    <form action="mailto:mullenallan@hotmail.com" method="POST" enctype="text/plain">
+        <fieldset>
+            <legend>Select size</legend>
+            <label for="pizza-size">Small</label>
+            <input type="radio" name="pizza-size">
+            <label for="pizza-size">Medium</label>
+            <input type="radio" name="pizza-size">
+            <label for="pizza-size">Large</label>
+            <input type="radio" name="pizza-size">
+        </fieldset>    
+
+        <fieldset>
+            <legend>Toppings</legend>
+            <label for="topping-select">Pepperoni</label>
+            <input type="checkbox" name="topping-select">
+            <label for="topping-select">Bacon</label>
+            <input type="checkbox" name="topping-select">
+            <label for="topping-select">Pineapple</label>
+            <input type="checkbox" name="topping-select">
+        </fieldset>    
+
+        <fieldset>
+            <legend>Collect or deliver?</legend>
+            <label for="collect">Method</label>
+            <input id="collect" name="collect" list="collect-method">
+            <datalist id="collect-method">
+                <option value="Sit in">
+                <option value="Collect">
+                <option value="Delivered">
+            </datalist>
+        </fieldset>
+
+        <fieldset>
+            <legend>When will you want it?</legend>
+            <label for="date">Please select a date?</label>
+            <input type="datetime-local" name="date">
+        </fieldset>
+
+        <fieldset>
+            <legend>Delivery Information</legend>
+            <label for="name">Name</label>
+            <input type="text" name="name" placeholder="Enter your name..." required><br>
+            <label for="email">Email</label>
+            <input type="email" name="name" placeholder="Enter your email..." required><br>
+            <label for="Phone">Phone Number</label>
+            <input type="text" name="Phone" placeholder="Enter your phone number..." required><br> 
+            <label for="address">Your Address</label><br>
+            <textarea name="address" rows="10" cols="40" placeholder="Enter address and postcode..." required></textarea><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>How to pay</legend>
+            <label>Card Type</label>
+            <input id="payment" name="payment" list="pay-method">
+            <datalist id="pay-method">
+                <option value="Visa">
+                <option value="Delta">
+            </datalist>
+             <button>Order and pay</button>
+        </fieldset>
+    </form>
+    </div>
+</body>
+</html>
